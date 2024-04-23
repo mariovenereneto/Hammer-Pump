@@ -6,6 +6,7 @@ This project is a Python-based GUI application that interacts with a map, calcul
 
 It uses PyQt5 for the GUI, folium for the map, and requests for HTTP requests to the Google API and the [Mapa de Regionalização de Vazões](http://www.leb.esalq.usp.br/leb/wolff/rv/), a Brazilian project for water availability estimation.
 
+![alt text](image.png)
 
 ## Getting Started
 
