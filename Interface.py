@@ -17,7 +17,7 @@ from scipy.optimize import fsolve
 # Local module imports
 from interfaceqt import Ui_MainWindow
 
-# API_KEY = 'AIzaSyCHfKgESVCt6zp5IdmfOYHxs1ljjLUYLsA'
+# API_KEY = 'INSERT YOUR KEY'
 BASE_URL = 'https://maps.googleapis.com/maps/api/elevation/json'
 
 
@@ -351,7 +351,7 @@ class Tela(QMainWindow):
             print(self.lngreser)
             params = {
                 'locations': f"{self.latreser},{self.lngreser}",
-                'key': "AIzaSyCHfKgESVCt6zp5IdmfOYHxs1ljjLUYLsA"
+                'key': "INSERT YOUR KEY"
             }
             response = requests.get(BASE_URL, params=params)
             data = response.json()
